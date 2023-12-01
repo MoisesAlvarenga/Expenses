@@ -54,9 +54,7 @@ class _TransactionFormState extends State<TransactionForm> {
             TextField(
               controller: _titleController,
               onSubmitted: (_) => _submitForm(),
-              decoration: InputDecoration(
-                labelText: 'Título',
-              ),
+              decoration: InputDecoration(labelText: 'Título'),
             ),
             TextField(
               controller: _valueController,
